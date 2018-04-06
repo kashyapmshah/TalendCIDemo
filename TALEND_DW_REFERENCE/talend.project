@@ -46,8 +46,6 @@
       <relatedItems xmi:id="_ag554jmEEeiTsbeixemkOg" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_ag554zmEEeiTsbeixemkOg" id="Mathematical" version="Latest" type="routine"/>
     </ItemsRelations>
-    <deletedFolders>process/t01_Compo/CustomCode</deletedFolders>
-    <deletedFolders>process/t01_Compo</deletedFolders>
     <migrationTask xmi:id="_5bRVoDmDEeiTsbeixemkOg" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_5bR8sDmDEeiTsbeixemkOg" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_5bWOIDmDEeiTsbeixemkOg" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
