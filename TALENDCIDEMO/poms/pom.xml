@@ -14,6 +14,7 @@
     <module>jobs/process/db_landing_to_staging_3.4</module>
     <module>jobs/process/db_landing_to_staging_3.7</module>
     <module>jobs/process/db_staging_to_foundation_0.1</module>
+    <module>jobs/process/db_staging_to_foundation_0.2</module>
   </modules>
   <properties>
     <signer.version>7.3.3</signer.version>
