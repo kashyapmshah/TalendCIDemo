@@ -2,3 +2,20 @@
  * Task [GenerateJobPomMigrationTask] : Applied successfully
  * Task [AutoUpdateRelationsMigrationTask] : Applied successfully
  ---=== End of migration ===---
+ ---=== Start Migration of project TalendCIDemo ===---
+ * Task [Update MDM View Objects] : Applied successfully
+ * Task [Update MDM Process Objects] : Applied successfully
+ * Task [MoveHDFSAndHCatalogToHadoopFolderMigrationTask] : Applied successfully
+ * Task [Remove MDM Reference Item Name] : Nothing to do
+ * Task [Update Operator MigrationTask] : Applied successfully
+ * Task [ResetMavenTemplateMigrationTask] : Applied successfully
+ * Task [Data Model MigrationTask] : Applied successfully
+ * Task [Update Bontia workflow from 7.2 to 7.9] : Nothing to do
+ * Task [UpdateBeansDefaultLibrariesMigrationTask 7.3.1-R2022-05] : Nothing to do
+ * Task [UpdateBeansLibrariesMigrationTask 7.3.1] : Nothing to do
+ * Task [RefactoDeltaMergeOption] : Nothing to do
+ * Task [Clean all metadata in poms folder] : Nothing to do
+ * Task [RemoveSnapshotJarMigrationTask] : Applied successfully
+ * Task [UpdateRemovedHadoopVersion] : Applied successfully
+ * Task [AddKafkaExtraInfo] : Nothing to do
+ * Task [UpdateDatabricks73Version] : Applied successfully

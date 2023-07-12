@@ -23,7 +23,7 @@
     <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
     <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
     <talend.project.name>TALENDCIDEMO</talend.project.name>
-    <talend.product.version>7.3.1.20200219_1130</talend.product.version>
+    <talend.product.version>7.3.1.20220513_0748-patch</talend.product.version>
     <talend.job.finalName>demos_0_1</talend.job.finalName>
     <talend.pigudf.groupid>org.example.talendcidemo.pigudf</talend.pigudf.groupid>
     <talend.routine.groupid>org.example.talendcidemo.code</talend.routine.groupid>
@@ -43,19 +43,37 @@
   </properties>
   <dependencies>
     <dependency>
-      <groupId>log4j</groupId>
-      <artifactId>log4j</artifactId>
-      <version>1.2.17</version>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-api</artifactId>
+      <version>2.17.1</version>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
-      <artifactId>log4j-to-slf4j</artifactId>
-      <version>2.12.1</version>
+      <artifactId>log4j-core</artifactId>
+      <version>2.17.1</version>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-log4j12</artifactId>
-      <version>1.7.25</version>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-slf4j-impl</artifactId>
+      <version>2.17.1</version>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>org.example.talendcidemo.code</groupId>
@@ -116,6 +134,13 @@
                 </goals>
               </execution>
             </executions>
+            <dependencies>
+              <dependency>
+                <groupId>commons-codec</groupId>
+                <artifactId>commons-codec</artifactId>
+                <version>1.15</version>
+              </dependency>
+            </dependencies>
           </plugin>
         </plugins>
       </build>
@@ -268,6 +293,60 @@
       <properties>
         <microservice.running.configs.dir>${current.int-resources.dir}/</microservice.running.configs.dir>
       </properties>
+    </profile>
+    <profile>
+      <id>include-microservice-em-dependencies</id>
+      <activation>
+        <property>
+          <name>studio.prometheus.metrics</name>
+          <value>true</value>
+        </property>
+      </activation>
+      <build>
+        <plugins>
+          <plugin>
+            <artifactId>maven-assembly-plugin</artifactId>
+            <executions>
+              <execution>
+                <phase>package</phase>
+                <goals>
+                  <goal>single</goal>
+                </goals>
+                <configuration>
+                  <descriptors>
+                    <descriptor>${basedir}/src/main/assemblies/assembly.xml</descriptor>
+                  </descriptors>
+                  <tarLongFileMode>gnu</tarLongFileMode>
+                  <appendAssemblyId>false</appendAssemblyId>
+                  <finalName>${talend.job.finalName}</finalName>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+      <properties>
+        <microservice.configs.dir>${current.resources.dir}/</microservice.configs.dir>
+        <contexts.running.dir>${current.resources.dir}/</contexts.running.dir>
+        <microservice.running.configs.dir>${current.int-resources.dir}/</microservice.running.configs.dir>
+      </properties>
+      <dependencies>
+        <dependency>
+          <groupId>io.micrometer</groupId>
+          <artifactId>micrometer-registry-prometheus</artifactId>
+          <version>1.1.1</version>
+        </dependency>
+        <dependency>
+          <groupId>io.prometheus.jmx</groupId>
+          <artifactId>collector</artifactId>
+          <version>0.13.0</version>
+        </dependency>
+        <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-security</artifactId>
+          <version>2.2.13.RELEASE</version>
+        </dependency>
+      </dependencies>
     </profile>
   </profiles>
 </project>
