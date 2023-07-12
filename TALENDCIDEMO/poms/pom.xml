@@ -11,6 +11,7 @@
   <modules>
     <module>code/beans</module>
     <module>code/routines</module>
+    <module>jobs/process/db_landing_to_staging_3.4</module>
     <module>jobs/process/demos_0.1</module>
     <module>jobs/process/test_prod2_0.1</module>
     <module>jobs/process/test_prod_0.1</module>
