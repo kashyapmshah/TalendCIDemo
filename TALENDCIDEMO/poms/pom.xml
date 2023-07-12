@@ -12,6 +12,7 @@
     <module>code/beans</module>
     <module>code/routines</module>
     <module>jobs/process/db_landing_to_staging_3.4</module>
+    <module>jobs/process/db_landing_to_staging_3.7</module>
   </modules>
   <properties>
     <signer.version>7.3.3</signer.version>
