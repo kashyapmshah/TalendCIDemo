@@ -19,3 +19,106 @@
  * Task [UpdateRemovedHadoopVersion] : Applied successfully
  * Task [AddKafkaExtraInfo] : Nothing to do
  * Task [UpdateDatabricks73Version] : Applied successfully
+ * Task [Fix a problem of project resources linked to items] : Nothing to do
+ * Task [NewJMSComponentMigrationTask] : Nothing to do
+ * Task [AggregateStrategyMigrationTask] : Nothing to do
+ * Task [RestRequestWrongCallMigrationTask] : Applied successfully
+ * Task [UpdateCJMSProjectTask] : Nothing to do
+ * Task [UpdatecJMSMigrationTask] : Nothing to do
+ * Task [cSetHeaderSupportMultiHeadersTask] : Nothing to do
+ * Task [cBeanCTalendJobMigrationTask] : Nothing to do
+ * Task [AddPropagateHeaderTocTalendJobMigrationTask] : Nothing to do
+ * Task [DisconnectErroHandlerMigrationTask] : Nothing to do
+ * Task [UpdateCXFDataFormatMigrationTask] : Nothing to do
+ * Task [FinalVersionUpgradeMigrationTask] : Nothing to do
+ * Task [AddSpringConfigurationMigrationTask] : Nothing to do
+ * Task [PushHCatalogIntoHadoopClusterMigrationTask] : Nothing to do
+ * Task [PushHDFSIntoHadoopClusterMigrationTask] : Nothing to do
+ * Task [ConsumesTypeMigrationTask] : Nothing to do
+ * Task [FormContentTypeMigrationTask] : Applied successfully
+ * Task [cLogLoggingCategoryMigrationTask] : Nothing to do
+ * Task [Rename_cJMSConnectionFactory_To_cMQConnectionFactory_MigrationTask] : Nothing to do
+ * Task [UnifyPasswordEncryption4ParametersInMRJobMigrationTask] : Nothing to do
+ * Task [UnifyPasswordEncryption4NoSQLConnectionMigrationTask] : Nothing to do
+ * Task [UnifyPasswordEncryption4ParametersInStormJobMigrationTask] : Nothing to do
+ * Task [UnifyPasswordEncryption4ParametersInRouteMigrationTask] : Nothing to do
+ * Task [AddSpringConfigurationPropertyMigrationTask] : Nothing to do
+ * Task [UpdatecSOAPServiceNamePortNameDefault] : Nothing to do
+ * Task [CheckAndAddFrameworkForStormJobMigrationTask] : Nothing to do
+ * Task [CheckAndAddFrameworkForMapReduceJobMigrationTask] : Nothing to do
+ * Task [ChangeMongoDBConnectionMinimalVersionMigrationTask] : Nothing to do
+ * Task [RemoveRouteComponentId] : Nothing to do
+ * Task [UpdateRouteResourceTypeMigrationTask] : Nothing to do
+ * Task [FixCassandraDataStaxDbtypesProblemMigrationTask] : Nothing to do
+ * Task [RouteletProcessTypeMigrationTask] : Nothing to do
+ * Task [ChangeHadoopConfJarNameMigrationTask] : Nothing to do
+ * Task [AdaptDeprecatedHadoopVersionsMigrationTask] : Nothing to do
+ * Task [ReviseInvalidContextNamesOfHadoopPropertiesMigrationTask] : Nothing to do
+ * Task [RenameToCSoapAndCRestMigrationTask] : Nothing to do
+ * Task [cCXFWsdlFileRepoMigrationTask] : Nothing to do
+ * Task [UpdateHadoopConfsForContextualHadoopClusterMigrationTask] : Nothing to do
+ * Task [AddBeansDefaultLibrariesMigrationTask 7.3.1] : Nothing to do
+ * Task [org.talend.designer.mapreduce.repository.migration.AddSupportedSparkVersionMigrationTask] : Nothing to do
+ * Task [AddDefaultVersionValueToElasticsearchComponentMigrationTask] : Nothing to do
+ * Task [GenerateJobPomMigrationTask] : Applied successfully
+ * Task [UpdateBuildTypeForCTalendJobMigrationTask] : Applied successfully
+ * Task [ChangeRouteResourceItemToResourceItemTask] : Nothing to do
+ * Task [AddOptionSplitableToImportHdfsFileMigrationTask] : Nothing to do
+ * Task [UpdateOracle18VersionSupportMigrationTask] : Nothing to do
+ * Task [UnifyPasswordEncryption4MDMServerDefMigrationTask] : Nothing to do
+ * Task [DBR540ToDBR550MigrationTask] : Nothing to do
+ * Task [AddStandardDeviationToAggregateRowComponentMigrationTask] : Nothing to do
+ * Task [SetGlobalTimestampOptionForPreviousVersions] : Nothing to do
+ * Task [RenameSQLDWHMigrationTask] : Applied successfully
+ * Task [CreateContextLinkMigrationTask] : Nothing to do
+ * Task [AddEMRFSMetadataTableNameToS3ConfigurationMigrationTask] : Nothing to do
+ * Task [AddKMSKeyIdToS3ConfigurationMigrationTask] : Nothing to do
+ * Task [ChangeDefaultLoadMethod4tSynapseBulkExec] : Applied successfully
+ * Task [ChangeDefaultDriverForMSSqlMigrationTask] : Applied successfully
+ * Task [DbOperatorMigrationTask] : Applied successfully
+ * Task [GoogleStorageSetDefaultAuthTypeMigrationTask] : Applied successfully
+ * Task [RenameEXAMigrationTask] : Applied successfully
+ * Task [Change MSSQL Default DBVersion] : Nothing to do
+ * Task [AddInTransitEncryptionCheckboxToS3ConfigurationMigrationTask] : Nothing to do
+ * Task [BigQuerySetDefaultAuthTypeForGSMigrationTask] : Applied successfully
+ * Task [CheckAzureBlobStorageKeepRemoteDirJavajetToTCOMPv0] : Applied successfully
+ * Task [UpdateSeparatorAndEscapeForDatasetAPI] : Nothing to do
+ * Task [TeradataTPTAddDatabaseNameToOptionalTablesMigrationTask] : Applied successfully
+ * Task [SetDefaultPartSizeForTGSPutMigrationTask] : Applied successfully
+ * Task [UpdateTStandadizePhoneNumberTask] : Applied successfully
+ * Task [UncheckTrustAllMigrationTask] : Applied successfully
+ * Task [EnabletPersonatorAddressBasicSettingTask] : Applied successfully
+ * Task [UpdateModuleListInComponentsMigrationTask] : Nothing to do
+ * Task [AddSnowflakeAuthenticationTypeMigrationTask] : Nothing to do
+ * Task [ChangeELTPostgresDbVersionMigrationTask] : Applied successfully
+ * Task [SpecialUpdateELTDefaultNameMigrationTask] : Nothing to do
+ * Task [RevertJDBCContextModeMappingFileValueMigrationTask] : Nothing to do
+ * Task [UncheckUseExtraParameterMigrationTask] : Applied successfully
+ * Task [SetDatasetCheckBoxGlobalOption] : Nothing to do
+ * Task [ChangeDefaultDriver4GreenplumMigrationTask] : Applied successfully
+ * Task [ChangeTMatchGroupConfidentWeightTypeTask] : Applied successfully
+ * Task [FixModuleListInBDJDBCMigrationTask] : Nothing to do
+ * Task [ChangeFileInputDynamicFieldLength] : Applied successfully
+ * Task [SpecialUpdateELTEnableColumnAliasMigrationTask] : Applied successfully
+ * Task [FixUpgradePasswordEncryptionAlg4ItemMigrationTask] : Nothing to do
+ * Task [UpdateModuleListInComponents2MigrationTask] : Nothing to do
+ * Task [SetUseLocalTimezone] : Nothing to do
+ * Task [RemoveDefaultProxyIPTask] : Applied successfully
+ * Task [ReplaceDefaultProxyIPMigrationTask] : Applied successfully
+ * Task [AddAndSetDBVersionValueCosmosDB] : Applied successfully
+ * Task [ReplaceInheritCredentialCheckBoxWithDropDownListTask] : Applied successfully
+ * Task [SetForceCopyFortFileCopy] : Applied successfully
+ * Task [ChangeGreenplumDefaultDriverMigrationTask] : Nothing to do
+ * Task [AddEncodingToPostParametersFortFileFetchMigrationTask] : Applied successfully
+ * Task [CheckLastModifyTFileCopyTask] : Applied successfully
+ * Task [ReplaceInheritCredentialCheckBoxWithDropDownListTaskForRedshift] : Applied successfully
+ * Task [UncheckBson2JsonTask] : Applied successfully
+ * Task [RenameConnectionName4tSQSOutput] : Applied successfully
+ * Task [ChangeDBVersion4tSAPConnection] : Applied successfully
+ * Task [AddHourFormatToBigqueryBulkOutput] : Applied successfully
+ * Task [SetDefaultValueForAttributesToElements] : Applied successfully
+ * Task [XSLTCheckCacheFileInMemoryTask] : Applied successfully
+ * Task [ChangeDbmsIdMigrationTask] : Applied successfully
+ * Task [UpdateActionOnFileForHDFSComponentsMigrationTask] : Applied successfully
+ * Task [AutoUpdateRelationsMigrationTask] : Applied successfully
+ ---=== End of migration ===---
