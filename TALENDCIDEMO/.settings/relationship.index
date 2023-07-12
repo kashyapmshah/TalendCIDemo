@@ -1,1 +1,12 @@
-[ ]
+[ {
+  "baseItem" : {
+    "id" : "_EgJFYCDMEe6SjpswGMUf8g",
+    "version" : "3.4",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "MDM",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+} ]
