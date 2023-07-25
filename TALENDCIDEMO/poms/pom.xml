@@ -65,7 +65,7 @@
             <dependency>
               <groupId>org.codehaus.plexus</groupId>
               <artifactId>plexus-archiver</artifactId>
-              <version>3.6.0</version>
+              <version>4.8.0</version>
             </dependency>
             <dependency>
               <groupId>org.apache.maven</groupId>
@@ -122,7 +122,7 @@
             <dependency>
               <groupId>org.codehaus.plexus</groupId>
               <artifactId>plexus-archiver</artifactId>
-              <version>3.6.0</version>
+              <version>4.8.0</version>
             </dependency>
             <dependency>
               <groupId>org.codehaus.plexus</groupId>
@@ -168,7 +168,7 @@
             <dependency>
               <groupId>org.codehaus.plexus</groupId>
               <artifactId>plexus-archiver</artifactId>
-              <version>3.6.0</version>
+              <version>4.8.0</version>
             </dependency>
             <dependency>
               <groupId>org.apache.maven</groupId>
@@ -310,7 +310,7 @@
                 <dependency>
                   <groupId>org.codehaus.plexus</groupId>
                   <artifactId>plexus-archiver</artifactId>
-                  <version>3.6.0</version>
+                  <version>4.8.0</version>
                 </dependency>
                 <dependency>
                   <groupId>org.iq80.snappy</groupId>
